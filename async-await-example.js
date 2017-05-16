@@ -1,5 +1,3 @@
-// jshint esversion: 6
-
 /**
  * Succeeds if the ms parameter is even;
  * Fails if the ms parameter is odd;

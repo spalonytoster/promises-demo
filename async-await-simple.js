@@ -1,5 +1,3 @@
-// jshint esversion: 6
-
 function resolveAfter2Seconds(x) {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -22,7 +20,7 @@ f2();
 
 async function f3() {
   try {
-    let z = await Promise.reject(30);
+    await Promise.reject(30);
   }
   catch (e) {
     console.log(e); // 30
