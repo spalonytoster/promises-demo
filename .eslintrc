@@ -20,8 +20,7 @@
             "always"
         ],
         "no-console": [
-            "error",
-            "allow": ["log", "info", "warn", "error"]
+            "off"
         ]
     },
     "env": {
